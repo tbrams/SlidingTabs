@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public class SampleFragmentPagerAdapter extends FragmentPagerAdapter {
-        final int PAGE_COUNT = 3;
-        private String tabTitles[] = new String[] { "Tab1", "Tab2", "Tab3" };
+        private String tabTitles[] = new String[] { "Odense","Roskilde", "WP3", "WP4", "WP5", "WP6", "WP7", "WP8", "WP9" };
+        final int PAGE_COUNT = tabTitles.length;
         private Context context;
 
         public SampleFragmentPagerAdapter(FragmentManager fm, Context context) {
